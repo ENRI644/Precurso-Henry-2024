@@ -1,0 +1,12 @@
+img {
+    width: 200px; /* Establecer el ancho de la imagen en 200 píxeles */
+    height: 150px;
+    float: right;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
