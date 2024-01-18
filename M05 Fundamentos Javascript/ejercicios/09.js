@@ -4,7 +4,13 @@ function esNuloOIndefinido(valor) {
   // De lo contrario, retorna false.
   // Tu código:
 
-  return !!!valor;
+  if (valor==null) {
+    return true
+  }else if (valor == undefined) {
+    return true
+  }else{
+    return false
+  }
 
 }
 
